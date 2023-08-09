@@ -21,7 +21,7 @@ class CategoryBox extends StatelessWidget {
         height: 150,
         width: 150,
         decoration: BoxDecoration(
-            color: ColorConstant.lightBlue.withOpacity(0.90),
+            color: Colors.white,
             borderRadius: BorderRadius.circular(20),
             boxShadow: [
               BoxShadow(

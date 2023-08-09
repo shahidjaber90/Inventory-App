@@ -110,7 +110,7 @@ class _HomePageState extends State<HomePage> {
           // main screen
           TweenAnimationBuilder(
               tween: Tween<double>(begin: 0, end: value),
-              duration: Duration(milliseconds: 500),
+              duration: Duration(milliseconds: 400),
               builder: (_, double val, __) {
                 return (Transform(
                   alignment: Alignment.center,
@@ -120,7 +120,8 @@ class _HomePageState extends State<HomePage> {
                     ..rotateY((pi / 6) * val),
                   child: SafeArea(
                     child: Scaffold(
-                      backgroundColor: ColorConstant.lightBlue,
+                      backgroundColor: Colors.white,
+                      // backgroundColor: ColorConstant.lightBlue,
                       body: Container(
                         width: MediaQuery.of(context).size.width,
                         height: MediaQuery.of(context).size.height,
